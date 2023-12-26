@@ -9,7 +9,7 @@ export default function DetailedScreen({ route, navigation }) {
 
   const fetchVacancy = async () => {
     try {
-      const response = await fetch(`http://192.168.1.27:8000/vacancies/${id}`);
+      const response = await fetch(`http://192.168.18.40:8000/vacancies/${id}`);
       const jsonData = await response.json();
       setVacancy(jsonData);
       console.log(jsonData);

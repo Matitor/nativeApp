@@ -67,7 +67,7 @@ export default function VacancyCard(props) {
     <View style={styles.card}>
       <Image
   style={styles.image}
-  source={{ uri: 'http://192.168.1.27'+props.pic.slice(16) }}
+  source={{ uri: 'http://192.168.18.40'+props.pic.slice(16) }}
 />
 
       

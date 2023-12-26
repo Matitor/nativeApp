@@ -8,7 +8,7 @@ export default function MainScreen({ navigation }) {
   const [titleValue, setTitleValue] = useState('');
 
     const getAllVacancies = async () => {
-    let url = 'http://192.168.1.27:8000/vacancies';
+    let url = 'http://192.168.18.40:8000/vacancies';
     if (titleValue) {
       url += `?name=${titleValue}`;
     }
